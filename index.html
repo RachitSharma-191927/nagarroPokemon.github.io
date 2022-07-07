@@ -38,12 +38,9 @@
       aspernatur, quam culpa harum voluptates quae? In, ipsum suscipit sint
       asperiores porro at.
     </p>
-    <button
-      class="ash"
-      onclick="window.location.href = '/nagarroPokemon.github.io/pokemons.html';"
-    >
-      ASH Pokemons
-    </button>
+    <button class="ash" onclick="myfunction()">ASH Pokemons</button>
+    <br />
+    <br />
     <img
       src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/unova-hat-ash-pikachu.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
       height="300px"
@@ -108,6 +105,13 @@
       <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea>
       <br />
       <input type="submit" value="Enter To Submit" />
+      <script>
+        function myfunction() {
+          if (confirm("Are You Sure To Move")) {
+            window.location.href = "/nagarroPokemon.github.io/pokemons.html";
+          }
+        }
+      </script>
     </form>
   </body>
 </html>

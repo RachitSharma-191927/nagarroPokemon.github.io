@@ -17,4 +17,9 @@ h1 {
   background-color: yellow;
   text-decoration: none;
   border-radius: 10px;
+  margin-left: 50%;
+}
+
+body {
+  background-color: aqua;
 }
